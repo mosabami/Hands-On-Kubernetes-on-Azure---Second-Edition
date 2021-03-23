@@ -8,10 +8,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - <your DNS prefix>.<your azure region>.cloudapp.azure.com
+    - handsonaks-ingress.westus2.cloudapp.azure.com
     secretName: tls-secret
   rules:
-  - host: <your DNS prefix>.<your azure region>.cloudapp.azure.com
+  - host: handsonaks-ingress.westus2.cloudapp.azure.com
     http:
       paths:
       - path: /oauth2

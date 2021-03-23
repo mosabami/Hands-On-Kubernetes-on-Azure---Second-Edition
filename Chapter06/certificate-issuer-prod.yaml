@@ -1,11 +1,11 @@
-apiVersion: cert-manager.io/v1alpha2
+apiVersion: cert-manager.io/v1
 kind: Issuer
 metadata:
   name: letsencrypt-prod
 spec:
   acme:
     server: https://acme-v02.api.letsencrypt.org/directory
-    email: <your e-mail address>
+    email: aayodeji@microsoft.com
     privateKeySecretRef:
       name: letsencrypt-prod
     solvers:

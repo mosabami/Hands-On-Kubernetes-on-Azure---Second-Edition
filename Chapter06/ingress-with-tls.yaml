@@ -7,10 +7,10 @@ metadata:
 spec:
   tls:
   - hosts:
-    - <your dns prefix>.<your azure region>.cloudapp.azure.com
+    - handsonaks-ingress.westus2.cloudapp.azure.com
     secretName: frontend-tls
   rules:
-  - host: <your dns prefix>.<your azure region>.cloudapp.azure.com
+  - host: handsonaks-ingress.westus2.cloudapp.azure.com
     http:
       paths:
       - path: /
